@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  font-size: 16px;
+}
+
+header {
+  background-color: white;
+}
+
+main h2 {
+  border-bottom: 2px black;
+}
