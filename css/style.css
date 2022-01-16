@@ -4,9 +4,34 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: #3377aa;
+  color: white;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 main h2 {
-  border-bottom: 2px black;
+  border-bottom: 2px black solid;
+}
+
+.container {
+  width: 70%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.footer {
+  background-color: #3377aa;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#lastupdated {
+  color: yellow;
 }
